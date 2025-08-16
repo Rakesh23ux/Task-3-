@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgba(64, 177, 234, 0.5);
+    background-image: url('background img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Navbar */
+header {
+    background: #002147;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    font: 1em sans-serif;
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links .cta {
+    background: #ffb400;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #002147;
+    font-weight: bold;
+}
+
+.nav-links .cta:hover {
+    background: #e0a800;
+    color: #333;
+}
+
+.hero-header {
+    text-align: center;
+    padding: 10px;
+    color: rgba(245, 245, 245, 0.7);
+    font-size: 1.5em;
+}
+
+/* Hero Section */
+.hero {
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+    
+    
+}
+.glass-form-container {
+
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border-radius: 15px; 
+  padding: 20px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1); 
+}
+
+.hero-content {
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    color: rgba(239, 16, 16, 0.738);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    font: 1em sans-serif;
+    font-size: 1.2em;
+}
+
+.hero-text {
+    color: #333;
+    font-size: 0.9em;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+/*Sign Up Form*/
+.form-container {
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    height: 50vh;
+}
+
+.Form-Header {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+button {
+    background: #ffb400;
+    color: #002147;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.btn {
+    background: #ffb400;
+    padding: 10px 20px;
+    color: #002147;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #e0a800;
+    color: #333;
+}
+
+/* Services */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+.our-services{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color:#ffb400 ;
+    border-radius: 20px;
+    font-family: 'times new roman', serif;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px 20px;
+    background: rgba(64, 177, 234, 0.5);
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+}
+
+/* About */
+.about {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background: #002147;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    margin: auto;
+}
+
+footer a {
+    color: #ffb400;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
